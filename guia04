@@ -1,0 +1,1 @@
+SELECT r.nombre, c.nombre FROM Usuario a JOIN UsuarioRolCategoria urc JOIN RolCategoria rc JOIN Rol r  JOIN Categoria c WHERE a.nombres LIKE 'Jhossymar' AND a.apellidos LIKE 'Contreras' 
